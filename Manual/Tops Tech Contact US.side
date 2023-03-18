@@ -1,0 +1,282 @@
+{
+  "id": "0fb3b721-37fd-4cc1-b48d-cc9c7d3a9101",
+  "version": "2.0",
+  "name": "Tops Tech",
+  "url": "https://www.tops-int.com/it-training-rajkot",
+  "tests": [{
+    "id": "063db5b6-e4e5-44d1-8887-6050b4eb07c7",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "3d3d5096-95c1-43a2-b3f1-0eef52cbfe27",
+    "name": "Contact US",
+    "commands": [{
+      "id": "cd43e0bb-3a61-4f0d-ab9b-5896ff4c824b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.tops-int.com/it-training-rajkot",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df2ae1f2-f27a-4f50-ac6a-ae7fbe5f47d1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1070x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40930666-ddd9-4d2f-8eb2-a5218ffa70f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.span-gradient",
+      "targets": [
+        ["css=.span-gradient", "css:finder"],
+        ["xpath=//div[@id='course-page']/section/div/div/div/a/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0272dd9-2c61-424b-84a0-ed2c361f4786",
+      "comment": "",
+      "command": "click",
+      "target": "css=#inquiryFormDiv #inq_name",
+      "targets": [
+        ["css=#inquiryFormDiv #inq_name", "css:finder"],
+        ["xpath=(//input[@id='inq_name'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9037faa1-fca7-4eef-ad5b-cf26358c8c1d",
+      "comment": "",
+      "command": "type",
+      "target": "css=#inquiryFormDiv #inq_name",
+      "targets": [
+        ["css=#inquiryFormDiv #inq_name", "css:finder"],
+        ["xpath=(//input[@id='inq_name'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/input", "xpath:position"]
+      ],
+      "value": "Jay "
+    }, {
+      "id": "ca59176a-afd9-4705-bce0-a268d436a42e",
+      "comment": "",
+      "command": "click",
+      "target": "css=#inquiryFormDiv #inq_email",
+      "targets": [
+        ["css=#inquiryFormDiv #inq_email", "css:finder"],
+        ["xpath=(//input[@id='inq_email'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "15744486-c65e-4089-9452-72caac713bcd",
+      "comment": "",
+      "command": "type",
+      "target": "css=#inquiryFormDiv #inq_email",
+      "targets": [
+        ["css=#inquiryFormDiv #inq_email", "css:finder"],
+        ["xpath=(//input[@id='inq_email'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/input[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/input[2]", "xpath:position"]
+      ],
+      "value": "jayshuklamz@gmail.com"
+    }, {
+      "id": "d78c7d5d-c577-44a7-8ddb-c9a49534a42d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#inquiryFormDiv #inq_contact",
+      "targets": [
+        ["css=#inquiryFormDiv #inq_contact", "css:finder"],
+        ["xpath=(//input[@id='inq_contact'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4eb4c33-a511-4d40-a48c-7595f9bcce97",
+      "comment": "",
+      "command": "type",
+      "target": "css=#inquiryFormDiv #inq_contact",
+      "targets": [
+        ["css=#inquiryFormDiv #inq_contact", "css:finder"],
+        ["xpath=(//input[@id='inq_contact'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "8866115744"
+    }, {
+      "id": "bad38170-6ae3-430f-a3bd-9ba60433b06a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=#inquiryFormDiv .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Send Inquiry')])[3]", "xpath:link"],
+        ["xpath=(//a[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[18]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eaae587d-6bcb-4d80-bde4-125f489eda29",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=#inquiryFormDiv .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Send Inquiry')])[3]", "xpath:link"],
+        ["xpath=(//a[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[18]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87d873da-fffd-4492-9ff7-4eb2d25bac4f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Send Inquiry",
+      "targets": [
+        ["linkText=Send Inquiry", "linkText"],
+        ["css=#inquiryFormDiv .btn", "css:finder"],
+        ["xpath=(//a[contains(text(),'Send Inquiry')])[3]", "xpath:link"],
+        ["xpath=(//a[@type='button'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='inquiryFormDiv']/form/div[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'javascript:;')])[18]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div[2]/form/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd442d1e-8cb4-44ac-9399-d8c9b102adcc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Locations",
+      "targets": [
+        ["linkText=Locations", "linkText"],
+        ["css=.dropdown > .active", "css:finder"],
+        ["xpath=//a[contains(text(),'Locations')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[2]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Locations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e50f43bc-3b90-4247-8747-6a7a8cad8a95",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Rajkot",
+      "targets": [
+        ["linkText=Rajkot", "linkText"],
+        ["css=.show > li:nth-child(5) > .dropdown-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Rajkot')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[4]/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/it-training-rajkot')])[2]", "xpath:href"],
+        ["xpath=//li[4]/ul/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9dc45e9b-a995-4470-9c7e-e32d75235ffe",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Webinar",
+      "targets": [
+        ["linkText=Webinar", "linkText"],
+        ["css=.nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Webinar')]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Webinar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a2c7b98-1205-4b9e-b845-cb76f3c8222e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Full Stack Development",
+      "targets": [
+        ["linkText=Full Stack Development", "linkText"],
+        ["css=.show > li:nth-child(1) > .dropdown-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Full Stack Development')])[4]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[3]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/webinar/fullstackdevelopment10-webinar')])[2]", "xpath:href"],
+        ["xpath=//li[3]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2020c110-9f23-4dc1-8a2a-2fce85b3d1e8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Placement",
+      "targets": [
+        ["linkText=Placement", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Placement')])[17]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.tops-int.com/placements')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d9f800a-25a3-4dc4-9cc4-24b062296fcc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Job Fest",
+      "targets": [
+        ["linkText=Job Fest", "linkText"],
+        ["css=.show > li:nth-child(1) > .dropdown-item", "css:finder"],
+        ["xpath=(//a[contains(text(),'Job Fest')])[2]", "xpath:link"],
+        ["xpath=//div[@id='navbarNav']/ul/li[2]/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/job-fest')])[2]", "xpath:href"],
+        ["xpath=//li[2]/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c4b29db-56cf-4fbf-934b-44acfcdc5aee",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Courses",
+      "targets": [
+        ["linkText=Courses", "linkText"],
+        ["css=#courses-menu > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Courses')])[5]", "xpath:link"],
+        ["xpath=//li[@id='courses-menu']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:;')]", "xpath:href"],
+        ["xpath=//nav/div/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b93b7c9-b851-47ba-b1f3-dd54b04419ef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Java Course",
+      "targets": [
+        ["linkText=Java Course", "linkText"],
+        ["css=#v-pills-1 .col-6:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Java Course')])[2]", "xpath:link"],
+        ["xpath=//div[@id='v-pills-1']/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/java-training-course')])[3]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c6e58d26-2eb3-408f-ade6-b62f9fdecc9e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["063db5b6-e4e5-44d1-8887-6050b4eb07c7"]
+  }],
+  "urls": ["https://www.tops-int.com/it-training-rajkot"],
+  "plugins": []
+}

@@ -1,0 +1,63 @@
+{
+  "id": "ded93aa3-993d-490a-ae7b-f700abaf4b49",
+  "version": "2.0",
+  "name": "Tops Technologies",
+  "url": "https://www.tops-int.com",
+  "tests": [{
+    "id": "a1f2d209-d7a5-42e8-aece-3aed93f0a1f6",
+    "name": "Solution1",
+    "commands": [{
+      "id": "7bfc024f-9b99-4ecd-a7a2-0b75362a6b2f",
+      "comment": "",
+      "command": "open",
+      "target": "/it-training-rajkot",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a06f7e7a-2d90-47e2-967e-1e87afb7ea2c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d534350-9de9-49e9-b353-e1352bd0e476",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Python Certification Course",
+      "targets": [
+        ["linkText=Python Certification Course", "linkText"],
+        ["css=#v-pills-1 .col-6:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Python Certification Course')])[2]", "xpath:link"],
+        ["xpath=//div[@id='v-pills-1']/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/python-training-course')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c4afa2-bb29-4846-b453-0ef27672e833",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=C, C++ Training Course",
+      "targets": [
+        ["linkText=C, C++ Training Course", "linkText"],
+        ["css=#v-pills-1 .col-6:nth-child(7) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'C, C++ Training Course')])[2]", "xpath:link"],
+        ["xpath=//div[@id='v-pills-1']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.tops-int.com/c-cplus-training-course')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "fd624854-a71d-4993-89fb-cea31f2e24bb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a1f2d209-d7a5-42e8-aece-3aed93f0a1f6"]
+  }],
+  "urls": ["https://www.tops-int.com/"],
+  "plugins": []
+}
